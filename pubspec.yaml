@@ -1,0 +1,27 @@
+name: simple_book_management_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.3  # <-- Add provider here, aligned with cupertino_icons
+  image_picker: ^0.8.4+3 # or the latest version
+  google_maps_flutter: ^2.1.1 # or the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
